@@ -121,4 +121,5 @@ h1 {
 
 .box-jogos{
     border-radius: 20px;
+    cursor: pointer;
 }
