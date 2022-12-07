@@ -45,6 +45,15 @@ header nav a:hover{
     color: #fff;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 300px;
+    color: var(--amarelo);
+    font-family: 'Arial Black', Times;
+    font-size: 90px;
+
+}
+
 /*Jogo-Principal*/
 .jogo-principal{
     font-size: 18px;
