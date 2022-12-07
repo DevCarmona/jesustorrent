@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Responsividade-->>
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>GameFlix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <h2 class="logo">GAMEFLIX</h2>
+            </a>
+            <nav>
+                <!--Alt+Shift+baixo copia a linha-->
+                <a href="index.html">Inicio</a>
+                <a href="traduzidos-ptbr.html">Traduzidos pt-br</a>
+                <a href="legendados-ptbr.html">Legendados pt-br</a>
+                <a href="semtraducao.html">Sem tradução</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="jogo-principal">
+            <div class="container">
+                <h3 class="titulo">THE CALLISTO PROTOCOL</h3>
+                <p class="descricao">Quando uma misteriosa epidemia transforma os outros detentos em criaturas inumanas e sanguinárias, Jacob terá que fazer de tudo para conseguir escapar com vida.</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="baixarcallisto()">
+                        <i class="fa-sharp fa-solid fa-download"></i>
+                        BAIXAR
+                    </button>
+
+                    <button role="button" class="botao" onclick="clicar()">
+                        <i class="fa-sharp fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-jogos">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-jogos" src="img/god-of-war.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Evil-West.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Horizon-Zero-Dawn-Complete-Edition.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Uncharted-Colecao.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Elden-Ring.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+        <script>
+            function clicar(){
+                window.open("pag2.html")
+            }
+
+            function baixarcallisto(){
+                alert("Sem link para Download")
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/6fa0384e9d.js" crossorigin="anonymous"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
+</body>
+</html>
