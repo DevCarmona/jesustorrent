@@ -1,0 +1,101 @@
+:root{
+    --amarelo: #f0b114;
+    --cinza: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body{
+    background: var(--cinza);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(201, 201, 201);
+}
+
+header .container{
+    /*Sempre joga os elementos por padrão em linha*/
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    border: solid;
+    border-radius: 5px;
+}
+
+header div a{
+    text-decoration: none;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--amarelo);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+/*Mudar a cor ao passar o mouse em cima (inicio, trad ptbr...) */
+header nav a:hover{
+    color: #fff;
+}
+
+/*Post Principal*/
+.container-callisto{
+    color: var(--amarelo);
+    margin-top: 40px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.post-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6em;
+    font-size: 14px;
+    font-family:PT sans, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.botao{
+    background-color: var(--amarelo);
+    border: none;
+    color: white;
+
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: 800;    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+/*Mudar a cor ao passar o mouse em cima dos botoes (baixar e mais informacoes)*/
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 2px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+     .post-body{
+        display: flex;
+        flex-direction: column;
+    }
+}
