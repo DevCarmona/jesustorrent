@@ -55,6 +55,7 @@ h1 {
 }
 
 /*Jogo-Principal*/
+
 .jogo-principal{
     font-size: 18px;
     /*linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) = cria uma camada fina de preto em cima da imagem*/
@@ -108,9 +109,11 @@ h1 {
     margin-left: 5px;
 }
 
+/* Carrosel e alterações das imagens nele. */
+
 .carrosel-jogos{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .box-jogos{
@@ -120,5 +123,8 @@ h1 {
 }
 
 .box-jogos:hover{
-    opacity: 20%;
+    opacity: 50%;
+    transform: scale(1.1);
+    border-radius: 40px;
+    transition: .2s linear;
 }
