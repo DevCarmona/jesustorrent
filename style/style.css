@@ -122,8 +122,8 @@ h1 {
 }
 
 .box-jogos:hover{
-    opacity: 50%;
+    opacity: 25%;
     transform: scale(1.1);
     border-radius: 40px;
-    transition: .2s linear;
+    transition: .1s linear;
 }
