@@ -55,7 +55,6 @@ h1 {
 }
 
 /*Jogo-Principal*/
-
 .jogo-principal{
     font-size: 18px;
     /*linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) = cria uma camada fina de preto em cima da imagem*/
@@ -99,6 +98,7 @@ h1 {
     cursor: pointer;
     transition: .3s ease all;
 }
+
 /*Mudar a cor ao passar o mouse em cima dos botoes (baixar e mais informacoes)*/
 .botao:hover{
     background-color: white;
@@ -110,7 +110,6 @@ h1 {
 }
 
 /* Carrosel e alterações das imagens nele. */
-
 .carrosel-jogos{
     margin-top: 10px;
     margin-bottom: 20px;
